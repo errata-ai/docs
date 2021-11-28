@@ -1,0 +1,74 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  padding: 0 2rem;
+  border: none;
+  border-radius: calc(var(--ifm-global-border-radius) / 2);
+  font-weight: var(--ifm-font-weight-bold);
+  font-size: var(--font-size-normal);
+  transition: background-color var(--transition-fastest)
+    var(--transition-bezier);
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button--plain {
+  height: auto;
+  padding: 0;
+  font-weight: unset;
+  font-size: unset;
+}
+
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-darker)
+}
+
+.button--icon img {
+  margin-right: 0.5rem;
+}
+
+.button--secondary {
+  color: var(--ifm-header-color);
+  background-color: var(--ifm-color-secondary);
+}
+
+.button--secondary:hover {
+  color: white;
+  background-color: var(--ifm-color-secondary-darker);
+}
+
+.button--small {
+  height: 3.5rem;
+}
+
+.button--xsmall {
+  height: 2.6rem;
+  padding: 0 1rem;
+}
+
+.button--uppercase {
+  text-transform: uppercase;
+}
+
+@media (max-width: 996px) {
+  .button {
+    padding: 0 1.75rem;
+  }
+
+  .button--xsmall {
+    padding: 0 1rem;
+  }
+
+  .button--plain {
+    padding: 0;
+  }
+}

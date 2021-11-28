@@ -1,0 +1,237 @@
+---
+id: gui
+title: User Interface
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import AdaptiveImg from '@site/src/components/AdaptiveImg';
+
+Vale Server's user interface (UI) consists of two parts: a native desktop
+application and a web-based dashboard.
+
+## Preferences
+
+To access the native application, click on its icon in the context menu and
+then select <b>Preferences...</b>.
+
+### Projects
+
+Projects allow you to manage multiple Vale configuration files in one place.
+Each project has a name (the left panel) and an associated configuration file
+(the right panel):
+
+<Tabs
+  groupId="operating-systems"
+  defaultValue="win"
+  values={[
+    {label: 'Windows', value: 'win'},
+    {label: 'macOS', value: 'mac'},
+    {label: 'linux', value: 'linux'},
+  ]}>
+
+  <TabItem value="win">
+    <img
+      alt="A screenshot of Vale Server's 'Projects' settings page."
+      src={useBaseUrl('img/vale-server/win/projects.png')}
+      className="sm-img"
+    />
+  </TabItem>
+
+  <TabItem value="mac">
+    <AdaptiveImg
+      alt="A screenshot of Vale Server's 'Projects' settings page."
+      src={useBaseUrl('img/vale-server/mac/projects')}
+      format=".png"
+      size="sm">
+    </AdaptiveImg>
+  </TabItem>
+
+  <TabItem value="linux">
+    <img
+      alt="A screenshot of Vale Server's 'Projects' settings page."
+      src={useBaseUrl('img/vale-server/linux/Projects.png')}
+      className="sm-img"
+    />
+  </TabItem>
+
+</Tabs>
+
+To create a new project, click "Add" and then double-click the "Untitled n"
+entry to give it a name. You can then edit the configuration file on the right
+to customize the project. To remove a project, click its name and then click
+the "Remove" button.
+
+After you've created and configured your projects, you can switch between them
+by choosing **Select Project** from the context menu.
+
+### StylesPath
+
+:::info Heads up!
+You can specify custom `StylesPath`s on a per-project basis, allowing for
+[easier syncing](/vale-server/concepts/syncing) across multiple writers.
+:::
+
+The Styles page provides quick access to all your installed styles. You can
+add your own styles through the [dashboard](/vale-server/gui#dashboard) or by choosing
+**Browse Styles...** from the context menu and then copying the relevant files.
+
+<Tabs
+  groupId="operating-systems"
+  defaultValue="win"
+  values={[
+    {label: 'Windows', value: 'win'},
+    {label: 'macOS', value: 'mac'},
+    {label: 'Linux', value: 'linux'},
+  ]}>
+
+  <TabItem value="win">
+    <img
+      alt="A screenshot of Vale Server's 'Styles' settings page."
+      src={useBaseUrl('img/vale-server/win/styles.png')}
+      className="sm-img"
+    />
+  </TabItem>
+
+  <TabItem value="mac">
+    <AdaptiveImg
+      alt="A screenshot of Vale Server's 'Styles' settings page."
+      src={useBaseUrl('img/vale-server/mac/styles')}
+      format=".png"
+      size="sm">
+    </AdaptiveImg>
+  </TabItem>
+
+  <TabItem value="linux">
+    <img
+      alt="A screenshot of Vale Server's 'Styles' settings page."
+      src={useBaseUrl('img/vale-server/linux/Styles.png')}
+      className="sm-img"
+    />
+  </TabItem>
+
+</Tabs>
+
+### Advanced
+
+The Advanced page allows you to configure the port that Vale Server
+will listen on. You'll need to restart the server for the change to
+take effect.
+
+<Tabs
+  groupId="operating-systems"
+  defaultValue="win"
+  values={[
+    {label: 'Windows', value: 'win'},
+    {label: 'macOS', value: 'mac'},
+    {label: 'Linux', value: 'linux'},
+  ]}>
+
+  <TabItem value="win">
+    <img
+      alt="A screenshot of Vale Server's 'Advanced' settings page."
+      src={useBaseUrl('img/vale-server/win/advanced.png')}
+      className="sm-img"
+    />
+  </TabItem>
+
+  <TabItem value="mac">
+    <AdaptiveImg
+      alt="A screenshot of Vale Server's 'Advance' settings page."
+      src={useBaseUrl('img/vale-server/mac/advanced')}
+      format=".png"
+      size="sm">
+    </AdaptiveImg>
+  </TabItem>
+
+  <TabItem value="linux">
+    <img
+      alt="A screenshot of Vale Server's 'Advanced' settings page."
+      src={useBaseUrl('img/vale-server/linux/Advanced.png')}
+      className="sm-img"
+    />
+  </TabItem>
+
+
+</Tabs>
+
+## Dashboard
+
+The dashboard provides a web-based interface for managing your Vale-related
+assets.
+
+<img
+  alt="A screenshot of Vale Server's dashboard."
+  src={useBaseUrl('img/vale-server/web/dash.png')}
+  className="md-img"
+/>
+
+To open your dashboard, click the **Open Dashboard...** option from the context
+menu.
+
+### Vocab
+
+Each of your [Projects](#projects) can be associated with a *Vocabulary* that
+allows you to add your own terms and phrases to any installed [style](#styles).
+
+Vocabulary entries belong to one of two groups:
+
+- `Preferred`: Entries marked as `Preferred` will be enforced on as-entered
+  basis&mdash;for example, if the term "JavaScript" is marked as Preferred, any
+  variation that doesn't exactly match (for example, `Javascript`, `javascript`, etc.) will
+  raise an error. Additionally, any Preferred entries will automatically be
+  added as exceptions to `spelling`, `capitalization`, and `conditional` rules
+  in all your active styles.
+
+  <img
+    alt="A screenshot of a dashboard entry being created."
+    src={useBaseUrl('img/vale-server/web/dash-entry.png')}
+    className="md-img"
+  />
+
+- `Do not use`: Any use of an entry marked as `Do not use` will raise an error.
+
+To manually edit a Vocabulary file, click **Browse Styles...** from the context
+menu and then navigate to the `/Vocab/<vocab name>` directory.
+
+### Styles
+
+The Styles page allows you to browse, install, and update third-party styles.
+These styles are open-source and maintained by the community of Vale Server
+users.
+
+<img
+    alt="A screenshot of the dashboard's Styles page."
+    src={useBaseUrl('img/vale-server/web/dash-styles.png')}
+    className="md-img"
+/>
+
+See the [dedicated repository](https://github.com/errata-ai/styles) to learn more.
+
+### Summary
+
+The summary page allows you to generate a status report for a local folder
+based on a custom grading scheme.
+
+<img
+    alt="A screenshot of the dashboard's Styles page."
+    src={useBaseUrl('img/vale-server/web/summary.png')}
+    className="md-img"
+/>
+
+For each Vale alert level&mdash;`suggestion`, `warning`, and `error`&mdash;you
+can specify a `count` (the number allowed occurrences) and a `scheme`.
+
+<img
+    alt="A screenshot of the dashboard's Styles page."
+    src={useBaseUrl('img/vale-server/web/grading.png')}
+    className="md-img"
+/>
+
+You can choose either `strict` or `sliding` as the grading scheme for your
+report.
+
+`strict` will cause any file that has more than `count` number of alerts
+(for any level) to fail. `sliding` will assign a grade based on far above or
+below `count` each alert level is for the particular file.

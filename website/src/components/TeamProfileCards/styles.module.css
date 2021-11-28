@@ -1,0 +1,10 @@
+.button--tertiary {
+  background-color: var(--ifm-color-secondary-dark);
+  border: none;
+  color: var(--ifm-header-color);
+}
+
+.button--tertiary:hover {
+  color: var(--palette-white);
+  background-color: var(--ifm-color-secondary-darkest);
+}

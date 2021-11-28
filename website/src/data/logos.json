@@ -1,0 +1,97 @@
+[
+   {
+      "img": "/img/logos/homebrew.png",
+      "alt": "HomeBrew",
+      "url": "https://github.com/Homebrew/brew/blob/master/.vale.ini"
+   },
+   {
+      "img": "/img/logos/chef.png",
+      "alt": "Chef",
+      "url": "https://github.com/chef/chef-web-docs/tree/master/tools/vale"
+   },
+   {
+      "img": "/img/logos/github2.png",
+      "alt": "GitHub",
+      "url": "https://github.com/github/codeql/blob/main/docs/codeql/.vale.ini"
+   },
+   {
+      "img": "/img/logos/netlify.jpeg",
+      "alt": "Netlify",
+      "url": "https://github.com/netlify/netlify-cms/blob/master/.vale.ini"
+   },
+   {
+      "img": "/img/logos/linode.png",
+      "alt": "Linode",
+      "url": "https://github.com/linode/docs/blob/develop/.vale.ini"
+   },
+   {
+      "img": "/img/logos/gitlab.png",
+      "alt": "GitLab",
+      "url": "https://docs.gitlab.com/ee/development/documentation/testing.html#vale"
+   },
+   {
+      "img": "/img/logos/spotify.png",
+      "alt": "Spotify",
+      "url": "https://github.com/spotify/backstage/blob/master/.vale.ini"
+   },
+   {
+      "img": "/img/logos/cockroachdb.png",
+      "alt": "CockroachDB",
+      "url": "https://github.com/cockroachdb/docs/tree/master/ci/vale"
+   },
+   {
+      "img": "/img/logos/eclipse.png",
+      "alt": "Eclipse",
+      "url": "https://github.com/eclipse/che-docs/blob/master/.vale.ini"
+   },
+   {
+      "img": "/img/logos/writethedocs.png",
+      "alt": "Write the Docs",
+      "url": "https://github.com/writethedocs/www/blob/master/.vale.ini"
+   },
+   {
+      "img": "/img/logos/mautic.png",
+      "alt": "Mautic",
+      "url": "https://github.com/mautic/mautic-documentation/blob/master/.vale.ini"
+   },
+   {
+      "img": "/img/logos/webpack.png",
+      "alt": "Webpack",
+      "url": "https://github.com/webpack/webpack.js.org/blob/master/.vale.ini"
+   },
+   {
+      "img": "/img/logos/algolia.png",
+      "alt": "Algolia",
+      "url": "https://github.com/algolia/vale-action"
+   },
+   {
+      "img": "/img/logos/datadog.png",
+      "alt": "DataDog",
+      "url": "https://github.com/DataDog/documentation/blob/master/.vale.ini"
+   },
+   {
+      "img": "/img/logos/rackspace.png",
+      "alt": "rackspace",
+      "url": "https://github.com/rackerlabs/technical-blog/blob/master/.vale.ini"
+   },
+   {
+      "img": "/img/logos/vaadin.png",
+      "alt": "Vaadin",
+      "url": "https://github.com/vaadin/docs/blob/latest/.vale.ini"
+   },
+   {
+      "img": "/img/logos/codacy.png",
+      "alt": "Codacy",
+      "url": "https://github.com/codacy/docs/blob/master/.vale.ini"
+   },
+   {
+      "img": "/img/logos/oxygen.png",
+      "alt": "Oxygen XML",
+      "url": "https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/vale-linter-addon.html"
+   },
+   {
+      "img": "/img/logos/beyond-code.png",
+      "alt": "Beyond Code",
+      "url": "https://github.com/beyondcode/laravel-prose-linter"
+   }
+]

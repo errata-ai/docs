@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="550" preserveAspectRatio="xMinYMin meet" viewBox="-1 -1 830 510" width="931" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="#b85450" stroke-miterlimit="10">
+    <path d="m678.769 291.105h-57.94" fill="none" stroke-dasharray="1 6" stroke-linecap="round" stroke-width="3"/>
+    <g stroke-width="2">
+      <path d="m686.475 291.105 8-4-2 4 2 4z" fill="#b85450" transform="matrix(-1 0 0 -1 1380.949951 582.210022)"/>
+      <path d="m519.529 246.349h65.3l33 43.6-33 43.5h-65l-33-43.4z" fill="#f8cecc"/>
+    </g>
+  </g>
+  <text fill="#1a1e23" font-family="Arial, sans-serif" font-size="20" height="22" text-anchor="middle" transform="translate(554.75 287.96875)" width="80" style="white-space: pre-wrap;">Extension<tspan dy="1em" x="0">​</tspan>points</text>
+  <g stroke-width="2">
+    <g stroke-miterlimit="10">
+      <path d="m476.065 265.359h-439.343" fill="none" stroke="#999" transform="matrix(0 -1 1 0 -8.9655 521.752518)"/>
+      <g fill="#b85450">
+        <path d="m410.586 295.096-4.5-8 4 2 4-2.2z" stroke="#b85450" transform="matrix(0 1 -1 0 701.082001 -119.089996)"/>
+      </g>
+    </g>
+    <ellipse cx="747.286" cy="291.349" fill="#f5f5f5" rx="45" ry="45" stroke="#09a3d5"/>
+  </g>
+  <text fill="#1a1e23" font-family="Arial, sans-serif" font-size="15" font-weight="bold" height="46" text-anchor="middle" transform="matrix(1, 0, 0, 1, -121.004013, -129.34375)" width="53" x="870.19" y="424.449" style="white-space: pre-wrap;">Style 2<tspan dy="1em" x="870.190002">​</tspan></text>
+  <path d="m55.15 411.031h124v74h-124z" fill="#e1d5e7" stroke="#9673a6" stroke-width="2"/>
+  <text fill="#1a1e23" font-family="Arial, sans-serif" font-size="20" height="22" transform="translate(16.000122 -4)" width="51" x="69.141" y="459.313" style="white-space: pre-wrap;">Output<tspan dy="1em" x="69.140999">​</tspan><tspan dy="1em" x="69.140999">​</tspan></text>
+  <path d="M 117.147 158.926 L 117.41 218.773" style="fill: none; stroke: rgb(102, 102, 102); stroke-width: 3; stroke-miterlimit: 10; stroke-dasharray: 1, 6; stroke-linecap: round;"/>
+  <ellipse cx="117.1" cy="116.5" fill="#dae8fc" rx="45" ry="45" stroke="#09a3d5" stroke-width="2"/>
+  <text fill="#1a1e23" font-family="Arial, sans-serif" font-size="15" font-weight="bold" height="30" width="27" x="95.811" y="120.331" style="white-space: pre-wrap; font-size: 15px;">Input</text>
+  <ellipse cx="118.203" cy="288.5" fill="#f5f5f5" rx="74.5" ry="49.5" stroke="#666" stroke-width="2"/>
+  <text fill="#1a1e23" font-family="Arial, sans-serif" font-size="20" height="22" text-anchor="middle" transform="matrix(1, 0, 0, 1, 117.681129, 287)" width="100" style="white-space: pre-wrap;">Fixed set of <tspan dy="1em" x="0">​</tspan>checks</text>
+  <text fill="#333" font-size="24" x="15.844" y="40.648" style="white-space: pre;">Most writing software</text>
+  <text fill="#333" font-size="24" x="490.297" y="40.641" style="white-space: pre; font-size: 24px;">Vale Server</text>
+  <g stroke-width="2">
+    <ellipse cx="549.095" cy="115.999" fill="#dae8fc" rx="45" ry="45" stroke="#09a3d5"/>
+    <g transform="translate(2 -1)">
+      <path d="m299 412.678h124v74h-124z" fill="#e1d5e7" stroke="#9673a6"/>
+      <ellipse cx="353" cy="291.349" fill="#f5f5f5" rx="45" ry="45" stroke="#09a3d5"/>
+    </g>
+  </g>
+  <text fill="#333" x="776.86" y="408.173" style="white-space: pre;"/>
+  <text fill="#333" x="619.335" y="501.346" style="white-space: pre;"/>
+  <path d="m481.829 291.105h-63.603" style="fill:none;stroke:#b85450;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:1 6;stroke-linecap:round"/>
+  <g fill="#1a1e23" font-family="Arial, sans-serif">
+    <text font-size="15" font-weight="bold" height="46" text-anchor="middle" transform="translate(-514.40094 -127.597412)" width="1740.38" x="870.19" y="424.449" style="white-space: pre-wrap;">Style 1<tspan dy="1em" x="870.190002">​</tspan></text>
+    <text font-size="20" height="22" transform="translate(255.458435 -4.233116)" width="198.297" x="69.141" y="459.313" style="white-space: pre-wrap;">Output 1<tspan dy="1em" x="69.140999">​</tspan><tspan dy="1em" x="69.140999">​</tspan></text>
+    <g font-size="15" font-weight="bold" transform="matrix(1, 0, 0, 1, 53, 1)">
+      <text height="30" width="121.438" x="477.933" y="120.071" style="white-space: pre-wrap; font-size: 15px;">Input</text>
+    </g>
+  </g>
+  <g stroke="#09a3d5" stroke-miterlimit="10">
+    <path d="m380.555 362.456-47.7-.313" fill="none" stroke-dasharray="1 6" stroke-linecap="round" stroke-width="3" transform="matrix(0 -1 1 0 -5.594498 719.004501)"/>
+    <path d="m356.524 387.334 4 8-4-2-4 2z" fill="#999" stroke-width="2" transform="matrix(-1 0 0 -1 713.047974 782.66803)"/>
+    <path d="M 772.747 364.271 L 725.047 363.958" fill="none" stroke-dasharray="1 6" stroke-linecap="round" stroke-width="3" transform="matrix(0, -1, 1, 0, 384.782501, 1113.011505)"/>
+    <path d="M 749.003 389.674 L 753.003 397.674 L 749.003 395.674 L 745.003 397.674 Z" fill="#999" stroke-width="2" transform="matrix(-1, 0, 0, -1, 1498.005981, 787.348022)"/>
+  </g>
+  <path d="m687.472 411.03h124v74h-124z" fill="#e1d5e7" stroke="#9673a6" stroke-width="2"/>
+  <text font-size="20" height="22" transform="matrix(1, 0, 0, 1, 643.167908, -4)" width="198.297" x="69.141" y="459.313" style="white-space: pre-wrap;">Output 2<tspan dy="1em" x="69.140999">​</tspan><tspan dy="1em" x="69.140999">​</tspan></text>
+  <path d="M 117.932 222.81 L 121.932 230.81 L 117.932 228.81 L 113.932 230.81 Z" fill="#999" stroke-miterlimit="10" stroke-width="2" style="stroke: rgb(102, 102, 102); paint-order: stroke;" transform="matrix(-1, 0, 0, -1, 235.863998, 453.619995)"/>
+  <path d="M 118.161 393.147 L 122.161 401.147 L 118.161 399.147 L 114.161 401.147 Z" fill="#999" stroke-miterlimit="10" stroke-width="2" style="stroke: rgb(102, 102, 102); paint-order: stroke;" transform="matrix(-1, 0, 0, -1, 236.322006, 794.294006)"/>
+  <path d="M 116.434 344.816 L 117.399 389.916" style="fill: none; stroke: rgb(102, 102, 102); stroke-width: 3; stroke-miterlimit: 10; stroke-dasharray: 1, 6; stroke-linecap: round;"/>
+  <path d="M 550.562 164.862 L 550.825 224.709" style="fill: none; stroke: rgb(102, 102, 102); stroke-width: 3; stroke-miterlimit: 10; stroke-dasharray: 1, 6; stroke-linecap: round;"/>
+  <path d="M 551.098 228.641 L 555.098 236.641 L 551.098 234.641 L 547.098 236.641 Z" fill="#999" stroke-miterlimit="10" stroke-width="2" style="stroke: rgb(102, 102, 102); paint-order: stroke;" transform="matrix(-1, 0, 0, -1, 1102.196045, 465.282013)"/>
+</svg>

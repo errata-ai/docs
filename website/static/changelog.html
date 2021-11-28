@@ -1,0 +1,225 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>Vale Server Release Notes</title>
+    <style>
+        * {
+            font-size: 12px
+        }
+
+        body {
+            font-family: Helvetica, sans-serif;
+            margin-bottom: 100px
+        }
+
+        h2 {
+            font-size: 14px;
+            margin: 40px 0 10px 0;
+            border-top: 1px solid #888;
+            padding-top: 10px
+        }
+
+        h2:first-child {
+            margin-top: 10px;
+            border-top: none
+        }
+
+        .note {
+            padding: 5px 10px;
+            border: 1px solid #ABA84D;
+            display: inline-block;
+            background: #F0EFCC;
+            color: #7A7212;
+            margin-bottom: 10px
+        }
+
+        .note:before {
+            content: "Note:";
+            margin-right: 5px;
+            font-weight: bold
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0 0 0 16px;
+            padding-left: 60px;
+            text-indent: -75px
+        }
+
+        ul li {
+            margin: 0 0 3px 0
+        }
+
+        ul li.new:before,
+        ul li.improved:before,
+        ul li.fixed:before,
+        ul li.changed:before {
+            display: inline-block;
+            font-family: Helvetica, sans-serif;
+            font-size: 12px;
+            border-radius: 3px;
+            padding: 2px 5px;
+            color: white;
+            text-align: right;
+        }
+
+        ul li.new:before {
+            content: 'New';
+            width: 25px;
+            margin-right: 30px;
+            background: #2ECF25
+        }
+
+        ul li.improved:before {
+            content: 'Improved';
+            width: 50px;
+            margin-right: 5px;
+            background: #2577CF
+        }
+
+        ul li.fixed:before {
+            content: 'Fixed';
+            width: 30px;
+            margin-right: 25px;
+            background: #CF7D25
+        }
+
+        ul li.changed:before {
+            content: 'Changed';
+            background: #888
+        }
+    </style>
+</head>
+
+<body>
+    <h2>v1.13.0</h2>
+    <ul>
+        <li class="new">
+            Vale Server is now running the latest version of Vale (v2.12.1).
+        </li>
+        <li class="new">
+            Updated license key verification process in preparation of OSS release.
+        </li>
+    </ul>
+
+    <h2>v1.12.1</h2>
+    <ul>
+        <li class="fixed">
+            Fixed an issue that could cause valid license keys to be rejected on Windows.
+        </li>
+    </ul>
+
+    <h2>v1.12.0</h2>
+    <ul>
+        <li class="new">
+            Vale Server is now running the latest version of Vale (v2.10.4)
+        </li>
+        <li class="new">
+            Vale Server now supports manual updates to its underlying Vale executable,
+            allowing it to keep up with the CLI releases.
+        </li>
+        <li class="new">
+            Vale Server now supports activation through an on-disk <a href="https://docs.errata.ai/vale-server/install#automated">license key file</a>.
+        </li>
+        <li class="fixed">
+            Fixed an issue that could cause the dashboard to fail to install remote styles.
+        </li>
+    </ul>
+
+    <h2>v1.11.0</h2>
+    <ul>
+        <li class="new">
+            Vale Server is now running the latest version of Vale (v2.6.8)
+        </li>
+    </ul>
+
+    <h2>v1.10.0</h2>
+    <ul>
+        <li class="new">
+            Vale Server is now available on all major Linux distributions through its new <a href="https://appimage.org/">AppImage</a>.
+        </li>
+        <li class="new">
+            Updated dock icons on all platforms, and updated the tray icon on Windows for better contrast when using light-themed colors.
+        </li>
+        <li class="new">
+            The VS Code, Atom, and Sublime Text clients now have a 'View Report' command that integrates with the new 'Summary' dashboard page.
+        </li>
+        <li class="fixed">
+            Fixed an issue that could cause the dashboard to fail to create a new vocab entry.
+        </li>
+    </ul>
+
+    <h2>v1.9.0</h2>
+    <ul>
+        <li class="new">
+            Vale Server's 'Studio' page is now publicly available at <a href="https://vale-studio.errata.ai/">vale-studio.errata.ai</a>.
+        </li>
+        <li class="new">
+            Vale Server now has a new 'Summary' page, allowing users to create reports about local directories according to custom grading schemes.
+        </li>
+        <li class="new">
+            Vale Server now supports three linting modes: Server (Vale Server only), Compatibility (Vale Server + Vale), Command Line (Vale only). The <a href="https://docs.errata.ai/vale-server/usage#choosing-a-mode">option has moved</a> from the preferences window to the context menu.
+        </li>
+    </ul>
+
+    <h2>v1.8.0</h2>
+    <ul>
+        <li class="new">
+            Vale Server now supports running <a href="https://docs.errata.ai/vale-server/add-ons/languagetool">LanguageTool as a background
+            process</a>, greatly improving on-the-fly linting performance.
+        </li>
+        <li class="new">
+            Vale Server's action-processing engine has been completely rewritten,
+            incorporating many performance improvements.
+        </li>
+        <li class="new">
+            New versions of the Atom, Sublime Text, and VS Code clients are now
+            available.
+        </li>
+    </ul>
+
+    <h2>v1.7.0</h2>
+    <ul>
+        <li class="new">
+            Vale Server now supports specifying a "limit" how often a specific
+            rule is reported.
+        </li>
+        <li class="new">
+            Vale Server now supports a new extension point, "sequence," allowing
+            for more grammar-focused rules.
+        </li>
+        <li class="fixed">
+            Vale Server will now request permission (when not already available)
+            to install an update on Windows instead of showing an error
+            message.
+        </li>
+        <li class="fixed">
+            Resolved an issue that caused some valid license keys to be denied
+            upon initial validation.
+        </li>
+    </ul>
+
+    <h2>v1.6.0</h2>
+    <ul>
+        <li class="new">
+            Windows 10 dark mode is now supported, giving the application
+            a more native look when the mode is active.
+        </li>
+        <li class="new">
+            Vocabulary files now accept regular expressions.
+        </li>
+        <li class="fixed">
+            Only one instance of Vale Server may be active now, fixing an issue
+            where multiple instances could be inadvertently started.
+        </li>
+        <li class="fixed">
+            Multiple ini-related syntax highlighting improvements and fixes.
+        </li>
+        <li class="fixed">
+            Vale Studio now correctly ignores code-related scopes.
+        </li>
+    </ul>
+</body>
+</html>

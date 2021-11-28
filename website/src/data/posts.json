@@ -1,0 +1,80 @@
+[
+    {
+        "title": "How To Automate Documentation Workflow For Developers",
+        "url": "https://www.smashingmagazine.com/2021/08/automate-documentation-workflow-for-developers/",
+        "year": 2021,
+        "author": "Portia Burton"
+    },
+    {
+        "title": "First steps with the Vale prose linter",
+        "url": "https://passo.uno/posts/first-steps-with-the-vale-prose-linter/",
+        "year": 2021,
+        "author": "Fabrizio Ferri Benedetti"
+    },
+    {
+        "title": "Writing Articles with Vale",
+        "url": "https://www.thedroneely.com/posts/writing-with-vale/",
+        "year": 2021,
+        "author": "Thedro Neely"
+    },
+    {
+        "title": "Linting your content using Vale",
+        "url": "https://www.shwetashetye.com/blog/vale/",
+        "year": 2021,
+        "author": "Shweta Shetye"
+    },
+    {
+        "title": "Docs as Code at Linode",
+        "url": "https://www.linode.com/blog/linode/docs-as-code-at-linode/",
+        "year": 2020,
+        "author": "Nathan Melehan, Linode"
+    },
+    {
+        "title": "Testing docs with Vale - Part 1: Installing the Vale CLI",
+        "url": "https://deanna.dev/installing-vale-cli/",
+        "year": 2020,
+        "author": "Deanna Thompson"
+    },
+    {
+        "title": "Prose linting with Vale and Emacs",
+        "url": "https://duncan.codes/posts/2020-09-14-prose-linting-vale-emacs.org/index.html",
+        "year": 2020,
+        "author": "Duncan Mac-Vicar P."
+    },
+    {
+        "title": "Linting the Buildkite Docs",
+        "url": "https://buildkite.com/blog/linting-the-buildkite-docs",
+        "year": 2020,
+        "author": "Sam Wright, Buildkite"
+    },
+    {
+        "title": "Sofie's Docs Diary Vol. 16: Writing in style",
+        "url": "https://umbraco.com/blog/sofies-docs-diary-vol-16-writing-in-style/",
+        "year": 2019,
+        "author": "Sofie Toft Kristensen, Umbraco"
+    },
+    {
+        "title": "Linting my prose with Vale",
+        "url": "https://blog.probablyfine.co.uk/2019/11/16/linting-my-prose-with-vale.html",
+        "year": 2019,
+        "author": "Alex Wilson"
+    },
+    {
+        "title": "Automated Enforcement of our Style Guide",
+        "url": "https://drupalize.me/blog/201910/automated-enforcement-our-style-guide",
+        "year": 2019,
+        "author": "Joe Shindelar, Drupalize.Me"
+    },
+    {
+        "title": "Testing your Documentation",
+        "url": "https://www.writethedocs.org/guide/tools/testing/#vale",
+        "year": 2019,
+        "author": "Write the Docs"
+    },
+    {
+        "title": "Vale for Spelling, Grammar, Style and Readability Linting",
+        "url": "https://dzone.com/articles/vale-for-spelling-grammar-style-and-readability-li",
+        "year": 2018,
+        "author": "Chris Ward"
+    }
+]

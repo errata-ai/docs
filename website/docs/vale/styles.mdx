@@ -1,0 +1,166 @@
+---
+id: styles
+title: Styles
+---
+
+import Existence from '../common/points/existence.md';
+import Substitution from '../common/points/substitution.md';
+import Occurrence from '../common/points/occurrence.md';
+import Repetition from '../common/points/repetition.md';
+import Consistency from '../common/points/consistency.md';
+import Conditional from '../common/points/conditional.md';
+import Capitalization from '../common/points/capitalization.md';
+import Readability from '../common/points/readability.md';
+import Spelling from '../common/points/spelling.md';
+import Sequence from '../common/points/sequence.md';
+
+Vale has a powerful extension system that doesn't require knowledge of
+any programming language. Instead, it uses collections of individual
+[YAML](http://yaml.org) files (or "rules") to enforce particular writing
+constructs.
+
+```yaml title="HeadingPunctuation.yml"
+# An example rule from the "Microsoft" style.
+extends: existence
+message: "Don't use end punctuation in headings."
+link: https://docs.microsoft.com/en-us/style-guide/punctuation/periods
+nonword: true
+level: warning
+scope: heading
+action:
+  name: edit
+  params:
+    - remove
+    - '.?!'
+tokens:
+  - '[a-z0-9][.?!](?:\s|$)'
+```
+
+These collections are referred to as *styles* and are organized in a
+nested folder structure at a user-specified location
+(see [Configuration](/vale/config)). For example,
+
+```text
+styles/
+├── base/
+│   ├── ComplexWords.yml
+│   ├── SentenceLength.yml
+│   ...
+├── blog/
+│   ├── TechTerms.yml
+│   ...
+└── docs/
+    ├── Branding.yml
+    ...
+```
+
+where _base_, _blog_, and _docs_ are your styles that each contain certain
+rules.
+
+## Extension points
+
+:::info Heads up!
+As if v2.10.0, you can specify an array of scopes to match against:
+
+```yaml
+scope:
+  - heading.h1
+  - heading.h2
+  - heading.h3
+```
+:::
+
+The building blocks of styles are rules (YAML files ending in `.yml`), which utilize extension points to perform specific tasks.
+
+The basic structure of a rule consists of a small header \(shown below\) followed by extension-specific arguments.
+
+```yaml
+# All rules should define the following header keys:
+#
+# `extends` indicates the extension point being used (see below for information
+# on the possible values).
+extends: existence
+# `message` is shown to the user when the rule is broken.
+#
+# Many extension points accept format specifiers (%s), which are replaced by
+# extracted values. See the exention-specific sections below for more details.
+message: "Consider removing '%s'"
+# `level` assigns the rule's severity.
+#
+# The accepted values are suggestion, warning, and error.
+level: warning
+# `scope` specifies where this rule should apply -- e.g., headings, sentences, etc.
+#
+# See the Markup section for more information on scoping.
+scope: heading
+# `link` gives the source for this rule.
+link: 'https://errata.ai/'
+# The number of times this rule should raise an alert.
+#
+# By default, there is no limit.
+limit: 1
+```
+
+The available extension points are discussed below.
+
+### `existence`
+
+<Existence />
+
+### `substitution`
+
+<Substitution />
+
+### `occurrence`
+
+<Occurrence />
+
+### `repetition`
+
+<Repetition />
+
+### `consistency`
+
+<Consistency />
+
+### `conditional`
+
+<Conditional />
+
+### `capitalization`
+
+<Capitalization />
+
+### `readability`
+
+<Readability />
+
+### `spelling`
+
+<Spelling />
+
+### `sequence` (v2.3.0)
+
+<Sequence />
+
+## Built-in style
+
+:::info Heads up!
+The built-in `Vale.Spelling` rule will respect an ignore file stored at
+`StylesPath/vocab.txt`. *However*, the recommended approach is to use a
+[custom Vocab](vocab) instead.
+:::
+
+Vale comes with a single built-in style named `Vale` that implements three rules,
+as described in the table below.
+
+| Rule              | Scope  | Level   | Description                                                         |
+|-------------------|--------|---------|---------------------------------------------------------------------|
+| `Vale.Spelling`   | `text` | `error` | Spell checks text while respecting the active project's vocabulary. |
+| `Vale.Terms`      | `text` | `error` | Enforces the current project's `Preferred` [vocabulary terms](/vale/vocab).                    |
+| `Vale.Avoid`      | `text` | `error` | Enforces the current project's `Do not use` [vocabulary terms](/vale/vocab).                    |
+
+## Third-party styles
+
+Vale has a growing selection of pre-made styles available for download from its
+[style library](https://github.com/errata-ai/styles), and community-maintained styles you can find by searching for the "[vale-linter-style](https://github.com/topics/vale-linter-style)" tag on GitHub.

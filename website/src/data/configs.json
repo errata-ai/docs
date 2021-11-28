@@ -1,0 +1,128 @@
+[
+    {
+        "website": "https://brew.sh",
+        "source": "https://github.com/Homebrew/brew/blob/master/.vale.ini",
+        "org": "https://github.com/Homebrew",
+        "info": "An implemetation of a custom, in-house style for the Homebrew docs.",
+        "name": "Homebrew"
+    },
+    {
+        "website": "https://www.chef.io/",
+        "source": "https://github.com/chef/chef-web-docs/tree/master/tools/vale",
+        "info": "A custom style, vocab, and output format for the Chef reference documentation.",
+        "org": "https://github.com/chef",
+        "name": "Chef Software, Inc."
+    },
+    {
+        "website": "https://securitylab.github.com/tools/codeql/",
+        "source": "https://github.com/github/codeql/blob/main/docs/codeql/.vale.ini",
+        "info": "A custom style built on top of the Microsoft Writing Style Guide.",
+        "org": "https://github.com/github",
+        "name": "GitHub"
+    },
+    {
+        "website": "https://www.netlify.com/",
+        "source": "https://github.com/netlify/netlify-cms/blob/master/.vale.ini",
+        "info": "A custom style and vocab for Netlify CMS website.",
+        "org": "https://github.com/netlify",
+        "name": "Netlify"
+    },
+    {
+        "website": "https://www.linode.com/",
+        "source": "https://github.com/linode/docs/blob/develop/.vale.ini",
+        "info": "A custom configuration for Hugo-powered Markdown docs.",
+        "org": "https://github.com/linode",
+        "name": "Linode"
+    },
+    {
+        "website": "https://docs.gitlab.com/",
+        "source": "https://docs.gitlab.com/ee/development/documentation/testing.html#vale",
+        "info": "An extensive Vale configuration for various GitLab projects.",
+        "org": "https://github.com/gitlabhq",
+        "name": "GitLab"
+    },
+    {
+        "website": "https://backstage.io/",
+        "source": "https://github.com/spotify/backstage/blob/master/.vale.ini",
+        "info": "A basic Vale configuration for Spotify's Backstage project.",
+        "org": "https://github.com/backstage",
+        "name": "Backstage"
+    },
+    {
+        "website": "https://www.cockroachlabs.com/",
+        "source": "https://github.com/cockroachdb/docs/blob/master/.vale.ini",
+        "info": "A custom style for the CockroachDB user documentation.",
+        "org": "https://github.com/cockroachdb",
+        "name": "CockroachDB"
+    },
+    {
+        "website": "https://www.eclipse.org/che/docs/",
+        "source": "https://github.com/eclipse/che-docs/blob/master/.vale.ini",
+        "info": "An advanced Vale configuration for the Eclipse Che Documentation.",
+        "org": "https://github.com/eclipse",
+        "name": "Eclipse Che"
+    },
+    {
+        "website": "http://writethedocs.org/",
+        "source": "https://github.com/writethedocs/www/blob/master/.vale.ini",
+        "info": "A custom style for the Write the Docs website.",
+        "org": "https://github.com/writethedocs",
+        "name": "Write the Docs"
+    },
+    {
+        "website": "https://docs.mautic.org/",
+        "source": "https://github.com/mautic/mautic-documentation/blob/master/.vale.ini",
+        "info": "A configuration for the Mautic project based on the Google Developer Documentation Style Guide.",
+        "org": "https://github.com/mautic",
+        "name": "Mautic"
+    },
+    {
+        "website": "https://webpack.js.org/",
+        "source": "https://github.com/webpack/webpack.js.org/blob/master/.vale.ini",
+        "info": "A proselint-based Vale configuration for the webpack website.",
+        "org": "https://github.com/webpack",
+        "name": "webpack"
+    },
+    {
+        "website": "https://www.algolia.com/",
+        "source": "https://github.com/algolia/vale-action",
+        "info": "A fork of the Vale GitHub action maintained by Algolia.",
+        "org": "https://github.com/algolia",
+        "name": "Algolia"
+    },
+    {
+        "website": "https://datadoghq.com/",
+        "source": "https://github.com/DataDog/documentation/blob/master/.vale.ini",
+        "info": "A custom style for the Datadog documentation.",
+        "org": "https://github.com/DataDog",
+        "name": "Datadog, Inc."
+    },
+    {
+        "website": "https://developer.rackspace.com/",
+        "source": "https://github.com/rackerlabs/technical-blog/blob/master/.vale.ini",
+        "info": "A custom style for the Rackspace Expert Insights Technical Blog.",
+        "org": "https://github.com/rackerlabs",
+        "name": "Rackspace"
+    },
+    {
+        "website": "https://vaadin.com/",
+        "source": "https://github.com/vaadin/docs/blob/latest/.vale.ini",
+        "info": "A custom style and configuration for the Vaadin docs.",
+        "org": "https://github.com/vaadin",
+        "name": "Vaadin"
+    },
+    {
+        "website": "https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/vale-linter-addon.html",
+        "source": "https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/vale-linter-addon.html",
+        "info": "A Vale Validation add-on for the Oxygen XML editor.",
+        "org": "https://github.com/oxygenxml",
+        "name": "Oxygen XML"
+    },
+    {
+        "website": "https://beyondco.de/",
+        "source": "https://github.com/beyondcode/laravel-prose-linter",
+        "info": "Syntax-aware proofreading for your Laravel application.",
+        "org": "https://github.com/beyondcode",
+        "name": "Beyond Code"
+    }
+]

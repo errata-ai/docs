@@ -1,0 +1,43 @@
+---
+title: Privacy
+id: privacy
+---
+
+# Privacy
+
+Privacy is an important consideration in all Vale-related development decisions. We've gone to great lengths to ensure that our software has the utmost respect for our users and their content.
+
+## Vale (CLI)
+
+The [Vale command-line tool][1] serves as the foundation (functionality-wise) for all of our software and services. It's free, open source, and [permissively licensed][2].
+
+Vale is distributed as a self-contained, standalone binary, and it works entirely **offline**: We have absolutely **zero** access to any content linted by Vale.
+
+## Vale Server
+
+[Vale Server][3] is graphical user interface (GUI), web-based dashboard, and HTTP server built on top of Vale.
+
+It runs on [`localhost`][4] and uses a local `vale` executable to perform all of its linting, so it also inherits all of Vale's content-related privacy guarantees.
+
+The only remote communication performed by Vale Server is a license key validation step done at start up. See its [Privacy Policy][6] and [Terms of Service][7] for more information.
+
+## Vale Studio
+
+[Vale Studio][5] is a [Heroku-hosted][8] web application. All content submitted through the application is sent to a server to be processed by a remotely-hosted `vale` executable.
+
+Submissions are limited to 500 characters and are not accessed, analyzed, or stored for any purpose.
+
+## `errata.ai`
+
+The websites `errata.ai` and `docs.errata.ai` are completely free of ads, analytics, tracking, and
+non-essential cookies.
+
+[1]: https://github.com/errata-ai/vale
+[2]: https://github.com/errata-ai/vale/blob/v2/LICENSE
+[3]: https://errata.ai/vale-server/
+[4]: https://en.wikipedia.org/wiki/Localhost
+[5]: https://vale-studio.errata.ai/
+[6]: https://errata.ai/vale-server/privacy/
+[7]: https://errata.ai/vale-server/terms/
+[8]: https://www.heroku.com/
+[9]: https://github.blog/2020-12-17-no-cookie-for-you/
