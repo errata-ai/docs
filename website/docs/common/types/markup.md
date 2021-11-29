@@ -9,7 +9,7 @@
 | `link` | Matches all `<a>` tags. |
 | `alt` | Matches all `alt` attributes. |
 | `blockquote` | Matches all `<blockquote>` tags. |
-| `summary` | Matches all body text \(excluding list items, headings, and table cells\). |
+| `summary` | Matches all body text \(excluding headings, code spans, code blocks, and table cells\). |
 | `code` | Matches all `<code>` tags. |
 | `strong` | Matches all `<strong>` and `<b>` tags. |
 | `emphasis` | Matches all `<em>` and `<i>` tags |
