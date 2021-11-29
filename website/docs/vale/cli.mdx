@@ -183,7 +183,30 @@ $ vale ls-config
 
 (See [Configuration](/vale/config) for more information about the available options.)
 
-Where `existence` could be any of the available extension points.
+### `ls-metrics`
+
+Print the given file's [metrics](https://docs.errata.ai/vale/styles#metric).
+
+```
+$ vale ls-metrics cases/bench.md
+{
+  "blockquote": 1,
+  "characters": 68001,
+  "complex_words": 2000,
+  "heading.h1": 2,
+  "heading.h2": 13,
+  "heading.h3": 27,
+  "heading.h4": 13,
+  "list": 16,
+  "long_words": 3565,
+  "paragraphs": 490,
+  "polysyllabic_words": 2314,
+  "pre": 168,
+  "sentences": 841,
+  "syllables": 23043,
+  "words": 14303
+}
+```
 
 ### `--help`
 
