@@ -24,7 +24,7 @@ condition: "> 8"
 | Name        | Type     | Description                                                     |
 | :---------- | :------- | :-------------------------------------------------------------- |
 | `formula`   | `string` | A formula of pre-defined variables to be evaluated.             |
-| `condition` | `string` | A binary condition upon which `forumula` will trigger an alert. |
+| `condition` | `string` | A binary condition upon which `formula` will trigger an alert. |
 
 `metric` enforces arbitrary formulas based on pre-defined, built-in variables.
 The table below summarizes all available variables:
