@@ -30,37 +30,14 @@ module.exports = {
       indexName: 'errata_ai'
     },
     navbar: {
-      hideOnScroll: true,
+      hideOnScroll: false,
       title: 'docs.errata.ai',
       logo: {
         alt: 'errata.ai logo',
         src: 'img/logo.svg'
       },
       items: [
-        {
-          label: 'Docs',
-          position: 'left', // or 'right'
-          items: [
-            {
-              label: 'Vale CLI',
-              to: '/vale/about/'
-            },
-            {
-              label: 'Vale Server',
-              to: '/vale-server/install/'
-            },
-            {
-              label: 'Vale Studio',
-              to: customFields.valeStudio
-            }
-          ]
-        },
         { to: '/blog', label: 'Blog', position: 'left' },
-        {
-          to: '/community',
-          label: 'Community',
-          position: 'left'
-        },
         {
           href: 'https://github.com/errata-ai',
           position: 'right',
@@ -89,15 +66,15 @@ module.exports = {
           items: [
             {
               label: 'Vale CLI',
-              to: '/vale/about'
+              to: '/vale/install'
             },
             {
               label: 'Vale Server',
               to: '/vale-server/install/'
             },
             {
-              label: 'Vale Studio',
-              to: 'https://vale-studio.errata.ai/'
+              label: 'Styles Library',
+              to: 'https://github.com/errata-ai/styles'
             }
           ]
         },
@@ -123,7 +100,7 @@ module.exports = {
           items: [
             {
               label: 'Privacy',
-              to: '/privacy'
+              to: '/#privacy'
             },
             {
               label: 'Benchmarks',
@@ -140,8 +117,6 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          id: 'docs',
-          path: './docs',
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:

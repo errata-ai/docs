@@ -1,5 +1,5 @@
 ---
-id: vale-server
+slug: vale-server
 title: Introducing Vale Server
 author: jdkato
 author_url: https://github.com/jdkato

@@ -1,5 +1,5 @@
 ---
-id: vsintro
+slug: vsintro
 title: Vale Comes to the Desktop
 author: jdkato
 author_url: https://github.com/jdkato

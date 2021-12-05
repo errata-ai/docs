@@ -1,12 +1,12 @@
 import React from 'react';
 import useThemeContext from '@theme/hooks/useThemeContext';
 
-function AdaptiveImg({alt, src, caption, format, size}) {
-  const {isDarkTheme, setLightTheme, setDarkTheme} = useThemeContext();
+function AdaptiveImg({ alt, src, caption, format, size }) {
+  const { isDarkTheme, setLightTheme, setDarkTheme } = useThemeContext();
 
   const ext = isDarkTheme ? '-dark' : '-light';
   const image = src + ext + format;
-  const classes = size + '-img';
+  const classes = size + '-img adaptive';
 
   if (caption) {
     return (
@@ -17,7 +17,7 @@ function AdaptiveImg({alt, src, caption, format, size}) {
     );
   } else {
     return (
-        <img alt={alt} src={image} className={classes} />
+      <img alt={alt} src={image} className={classes} />
     )
   }
 }

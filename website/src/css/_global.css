@@ -34,6 +34,14 @@
   --ifm-card-background-color: var(--ifm-color-secondary);
 }
 
+img.adaptive {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  padding: 0 0 var(--ifm-paragraph-margin-bottom);
+}
+
 .github-link:before {
   content: "";
   width: 24px;

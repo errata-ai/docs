@@ -1,6 +1,6 @@
 ---
 id: install
-title: Getting Started
+title: Installation
 ---
 
 import Tabs from '@theme/Tabs';
@@ -11,7 +11,7 @@ import ThemedImage from '@theme/ThemedImage';
 
 ## Overview
 
-[**Vale Server**](https://errata.ai/vale-server/) is a cross-platform (Windows, macOS, and Linux) desktop application that
+**Vale Server** is a cross-platform (Windows, macOS, and Linux) desktop application that
 helps enforce writing style guides. It's built on top of, and offers a high
 degree of compatibility with, the [Vale command-line tool](/vale/about).
 
@@ -91,107 +91,3 @@ Vale Server supports **macOS 10.14+**, **Windows 10**, and [most **Linux** distr
   </TabItem>
 
 </Tabs>
-
-## Activation
-
-Beyond the 30-day free trial, usage of Vale Server requires a license key. You
-can purchase one from the [main website](https://errata.ai/vale-server/#purchase).
-
-### Manual
-
-<Tabs
-  groupId="operating-systems"
-  defaultValue="win"
-  values={[
-    {label: 'Windows', value: 'win'},
-    {label: 'macOS', value: 'mac'},
-    {label: 'Linux', value: 'linux'},
-  ]}>
-
-  <TabItem value="win">
-    <p>To activate Vale Server on Windows, navigate to the application's context menu from the taskbar and select <b>Enter License...</b>:</p>
-    <img
-      alt="A screenshot of Vale Server's 'Enter License' option."
-      src={useBaseUrl('img/vale-server/win/enter-license.png')}
-      className="xs-img"
-    />
-    <p>You'll then be prompted to enter the license key that you either received with your purchase receipt:</p>
-    <img
-      alt="A screenshot of Vale Server's 'Enter License' dialog."
-      src={useBaseUrl('img/vale-server/win/license-input-light.png')}
-      className="sm-img"
-    />
-    <p>If your license is successfully validated, you'll see the following notice appear:</p>
-    <img
-      alt="A screenshot of Vale Server's 'license approved' dialog."
-      src={useBaseUrl('img/vale-server/win/license-dialog.png')}
-      className="sm-img"
-    />
-    <p>Otherwise, you'll see a message dialog indicating what went wrong.</p>
-  </TabItem>
-
-  <TabItem value="mac">
-    <p>To activate Vale Server on macOS, navigate to the application's context menu from the menu bar and select <b>Enter License...</b>:</p>
-    <AdaptiveImg
-      alt="A screenshot of Vale Server's 'Enter License' option."
-      src={useBaseUrl('img/vale-server/mac/enter-license')}
-      format=".png"
-      size="xs">
-    </AdaptiveImg>
-    <p>You'll then be prompted to enter the license key that you either received with your purchase receipt:</p>
-    <AdaptiveImg
-      alt="A screenshot of Vale Server's 'Enter License' dialog."
-      src={useBaseUrl('img/vale-server/mac/license-input')}
-      format=".png"
-      size="sm">
-    </AdaptiveImg>
-    <p>If your license is successfully validated, you'll see the following notice appear:</p>
-    <AdaptiveImg
-      alt="A screenshot of Vale Server's 'license approved' dialog."
-      src={useBaseUrl('img/vale-server/mac/key-dialog')}
-      format=".png"
-      size="sm">
-    </AdaptiveImg>
-    <p>Otherwise, you'll see a message dialog indicating what went wrong.</p>
-  </TabItem>
-
-  <TabItem value="linux">
-    <p>To activate Vale Server on Linux, navigate to the application's context menu from the taskbar and select <b>Enter License...</b>:</p>
-    <img
-      alt="A screenshot of Vale Server's 'Enter License' option."
-      src={useBaseUrl('img/vale-server/linux/activate.png')}
-      className="xs-img"
-    />
-    <p>You'll then be prompted to enter the license key that you either received with your purchase receipt:</p>
-    <img
-      alt="A screenshot of Vale Server's 'Enter License' dialog."
-      src={useBaseUrl('img/vale-server/linux/license.png')}
-      className="xs-img"
-    />
-    <p>If your license is successfully validated, you'll see the following notice appear:</p>
-    <img
-      alt="A screenshot of Vale Server's 'license approved' dialog."
-      src={useBaseUrl('img/vale-server/linux/activated.png')}
-      className="xs-img"
-    />
-    <p>Otherwise, you'll see a message dialog indicating what went wrong.</p>
-  </TabItem>
-
-</Tabs>
-
-### Automated
-
-Create a plain-text file containing your license key at one of the the OS-specific locations listed below.
-
-|  OS     | Location                                                                    |
-|:-------:|:---------------------------------------------------------------------------:|
-| macOS   | `~/Library/Application Support/errata-ai/Vale Server/license.vale-server`   |
-| Windows | `C:/Users/<USER>/AppData/Roaming/errata-ai/Vale Server/license.vale-server` |
-| Linux   | `~/.local/share/errata-ai/Vale Server/license.vale-server`                  |
-
-## Activation management
-
-If you have an Individual License, you're limited to two concurrent activations.
-
-You can manage these activations at
-[`https://errata.ai/manage`](https://errata.ai/manage/).
