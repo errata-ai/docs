@@ -1,0 +1,138 @@
+{
+  "version-v2.13.0/docs": [
+    {
+      "type": "doc",
+      "id": "version-v2.13.0/introduction"
+    },
+    {
+      "type": "category",
+      "label": "Vale CLI",
+      "collapsed": false,
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v2.13.0/vale/install"
+        },
+        {
+          "type": "doc",
+          "id": "version-v2.13.0/vale/cli"
+        },
+        {
+          "type": "doc",
+          "id": "version-v2.13.0/vale/styles"
+        },
+        {
+          "type": "doc",
+          "id": "version-v2.13.0/vale/vocab"
+        },
+        {
+          "type": "doc",
+          "id": "version-v2.13.0/vale/scoping"
+        },
+        {
+          "type": "doc",
+          "id": "version-v2.13.0/vale/config"
+        }
+      ],
+      "collapsible": true
+    },
+    {
+      "type": "category",
+      "label": "Vale Server",
+      "collapsed": false,
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v2.13.0/vale-server/install"
+        },
+        {
+          "type": "doc",
+          "id": "version-v2.13.0/vale-server/gui"
+        },
+        {
+          "type": "doc",
+          "id": "version-v2.13.0/vale-server/usage"
+        },
+        {
+          "type": "doc",
+          "id": "version-v2.13.0/vale-server/concepts/syncing"
+        },
+        {
+          "type": "link",
+          "label": "API Explorer",
+          "href": "https://docs.errata.ai/api/index.html"
+        }
+      ],
+      "collapsible": true
+    },
+    {
+      "type": "category",
+      "label": "Integrations",
+      "collapsed": false,
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-v2.13.0/common/plugins"
+        },
+        {
+          "type": "link",
+          "label": "Atom",
+          "href": "https://github.com/errata-ai/vale-atom"
+        },
+        {
+          "type": "link",
+          "label": "Emacs",
+          "href": "https://github.com/abingham/flycheck-vale"
+        },
+        {
+          "type": "link",
+          "label": "GitHub Actions",
+          "href": "https://github.com/errata-ai/vale-action"
+        },
+        {
+          "type": "doc",
+          "id": "version-v2.13.0/vale-server/integrations/chrome"
+        },
+        {
+          "type": "doc",
+          "id": "version-v2.13.0/vale-server/integrations/google-docs"
+        },
+        {
+          "type": "doc",
+          "id": "version-v2.13.0/vale-server/integrations/intellij"
+        },
+        {
+          "type": "link",
+          "label": "Laravel",
+          "href": "https://github.com/beyondcode/laravel-prose-linter"
+        },
+        {
+          "type": "link",
+          "label": "Obsidian",
+          "href": "https://github.com/marcusolsson/obsidian-vale"
+        },
+        {
+          "type": "link",
+          "label": "Oxygen XML",
+          "href": "https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/vale-linter-addon.html"
+        },
+        {
+          "type": "link",
+          "label": "Sublime Text",
+          "href": "https://github.com/errata-ai/SubVale"
+        },
+        {
+          "type": "link",
+          "label": "Vim",
+          "href": "https://github.com/dense-analysis/ale"
+        },
+        {
+          "type": "link",
+          "label": "VS Code",
+          "href": "https://github.com/errata-ai/vale-vscode"
+        }
+      ],
+      "collapsible": true
+    }
+  ]
+}

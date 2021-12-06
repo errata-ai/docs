@@ -1,0 +1,145 @@
+---
+id: introduction
+title: Introduction
+description: An introduction to Vale and Vale Server
+slug: /
+---
+
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import AdaptiveImg from "@site/src/components/AdaptiveImg";
+import VideoList from "@site/src/components/VideoList";
+import BlogList from "@site/src/components/BlogList";
+import {
+  ActiveTeamRow,
+} from '@site/src/components/TeamProfileCards';
+
+[![Build status](https://ci.appveyor.com/api/projects/status/snk0oo6ih1nwuf6r?svg=true)](https://ci.appveyor.com/project/jdkato/vale) [![Go Report Card](https://img.shields.io/badge/%F0%9F%93%9D%20%20go%20report-A%2B-75C46B?color=00ACD7)](https://goreportcard.com/report/github.com/errata-ai/vale) [![GitHub All Releases](https://img.shields.io/github/downloads/errata-ai/vale/total?logo=GitHub&color=ff69b4)](https://github.com/errata-ai/vale/releases) [![Docker Pulls](https://img.shields.io/docker/pulls/jdkato/vale?color=orange&logo=docker&logoColor=white)](https://hub.docker.com/r/jdkato/vale)
+
+Vale is a command-line tool that brings code-like linting to prose. It's
+_open source_, _fast_, and _highly customizable_.
+
+:memo: It doesn't attempt to teach you _how_ to write; it's a tool _for_ writers. In
+other words, Vale focuses on allowing its users to create their own collections
+of rules (known as [_styles_](/vale/styles)) rather than providing its own
+advice.
+
+:lock: It's 100% offline, private, and secure. While other tools and services
+have to explain to you how they will/won't use your data (often in long,
+legalese-filled documents), all we have to say is that [we don't have access
+to it](#privacy).
+
+:package: It's a standalone, [easy-to-install](/vale/install) binary. Unlike other tools, Vale
+doesn't require you to install and configure a particular programming language
+and its related tooling (such as Python/pip or Node.js/npm).
+
+## Community
+
+Vale has a growing community of users from around the world. Check out the
+user-contributed resources below.
+
+| Connect                    |                                                                                                 |
+| -------------------------- | ----------------------------------------------------------------------------------------------- |
+| [GitHub Discussions][1]    | Ask questions, share configurations, and engage in general Vale-related discussion.             |
+| [GitHub Issues][4]         | Report a bug, submit a feature request, or start a PR.                                          |
+| [Slack (`#testthedocs`)][2]| Discuss Vale with the Write the Docs community ([join here][3], if you're not already a member). |
+
+Have your own video, post, or config? Feel free to [submit it here](https://github.com/errata-ai/vale-server/issues/new).
+
+### Users
+
+<ActiveTeamRow />
+
+### Articles {#articles}
+
+<BlogList />
+
+### Videos {#videos}
+
+<VideoList />
+
+## Privacy
+
+Privacy is an important consideration in all Vale-related development
+decisions. We've gone to great lengths to ensure that our software has the
+utmost respect for our users and their content.
+
+For us, it's not merely about what we *say*&mdash;it's about what we *do*.
+
+### Vale
+
+The [Vale command-line tool][5] serves as the foundation (functionality-wise)
+for all of our software and integrations. It's free, open source, and
+[permissively licensed][6].
+
+Vale is distributed as a self-contained, standalone binary, and it works
+entirely **offline**: We have absolutely **zero** access to any content linted
+by Vale.
+
+### Vale Server
+
+[Vale Server][7] is a graphical user interface (GUI), web-based dashboard, and
+HTTP server built on top of Vale.
+
+It runs on [`localhost`][8] and uses a local `vale` executable to perform all
+of its linting, so it also inherits all of Vale's content-related privacy
+guarantees.
+
+### Integrations
+
+When you use Vale with a third-party integration, you also need to consider
+their own security and privacy policies.
+
+Wherever possible, we try to abide by the strictest level of security
+practices. For example, see our blog post, [*Taking Vale Server to the web*][14],
+in which we describe how Vale's Chrome extension achieved the *very rare*
+distinction of being warning-free according to Google.
+
+## Sponsors
+
+<a href="https://opencollective.com/vale/organization/0/website">
+  <img src="https://opencollective.com/vale/organization/0/avatar.svg?avatarHeight=100" />
+</a>
+<a href="https://opencollective.com/vale/organization/1/website">
+  <img src="https://opencollective.com/vale/organization/1/avatar.svg?avatarHeight=100" />
+</a>
+<a href="https://opencollective.com/vale/organization/2/website">
+  <img src="https://opencollective.com/vale/organization/2/avatar.svg?avatarHeight=100" />
+</a>
+<a href="https://opencollective.com/vale/organization/3/website">
+  <img src="https://opencollective.com/vale/organization/3/avatar.svg?avatarHeight=100" />
+</a>
+<a href="https://opencollective.com/vale/organization/4/website">
+  <img src="https://opencollective.com/vale/organization/4/avatar.svg?avatarHeight=100" />
+</a>
+<a href="https://opencollective.com/vale/organization/5/website">
+  <img src="https://opencollective.com/vale/organization/5/avatar.svg?avatarHeight=100" />
+</a>
+<a href="https://opencollective.com/vale/organization/6/website">
+  <img src="https://opencollective.com/vale/organization/6/avatar.svg?avatarHeight=100" />
+</a>
+<a href="https://opencollective.com/vale/organization/7/website">
+  <img src="https://opencollective.com/vale/organization/7/avatar.svg?avatarHeight=100" />
+</a>
+<a href="https://opencollective.com/vale/organization/8/website">
+  <img src="https://opencollective.com/vale/organization/8/avatar.svg?avatarHeight=100" />
+</a>
+<a href="https://opencollective.com/vale/organization/9/website">
+  <img src="https://opencollective.com/vale/organization/9/avatar.svg?avatarHeight=100" />
+</a>
+
+<a href="https://opencollective.com/vale"><img src="https://opencollective.com/vale/individuals.svg?width=890" /></a>
+
+[1]: https://github.com/errata-ai/vale/discussions
+[2]: https://writethedocs.slack.com/archives/CBWQQ5E57
+[3]: https://www.writethedocs.org/slack/
+[4]: https://github.com/errata-ai/vale/issues/new
+[5]: https://github.com/errata-ai/vale
+[6]: https://github.com/errata-ai/vale/blob/v2/LICENSE
+[7]: /vale-server/install
+[8]: https://en.wikipedia.org/wiki/Localhost
+[9]: https://vale-studio.errata.ai/
+[10]: https://errata.ai/vale-server/privacy/
+[11]: https://errata.ai/vale-server/terms/
+[12]: https://www.heroku.com/
+[13]: https://github.blog/2020-12-17-no-cookie-for-you/
+[14]: /blog/taking-vale-server-to-the-web
