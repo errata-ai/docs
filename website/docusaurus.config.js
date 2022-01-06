@@ -119,13 +119,12 @@ module.exports = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/errata-ai/vale-server/edit/master/website/'
+          editUrl: ({locale, versionDocsDirPath, docPath}) => {
+            return `https://github.com/errata-ai/docs/edit/main/website/${versionDocsDirPath}/${docPath}`;
+          },
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            'https://github.com/errata-ai/vale-server/edit/master/website/blog/'
         },
         theme: {
           customCss: require.resolve('./src/css/_global.css')
