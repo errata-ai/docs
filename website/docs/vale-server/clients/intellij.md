@@ -3,7 +3,7 @@ id: intellij
 title: Intellij-based tools
 ---
 
-An older (seemingly unmatined) plugin for using Vale with IntelliJ-based IDEs is available at [github.com/jjaderberg/vale-gradle-plugin](https://github.com/jjaderberg/vale-gradle-plugin). If you are interested in developing a new one, [add your input to this issue](https://github.com/errata-ai/vale-server/issues/39).
+An older (seemingly unmaintained) plugin for using Vale with IntelliJ-based IDEs is available at [github.com/jjaderberg/vale-gradle-plugin](https://github.com/jjaderberg/vale-gradle-plugin). If you are interested in developing a new one, [add your input to this issue](https://github.com/errata-ai/vale-server/issues/39).
 
 In the meantime [jillesvangurp](https://github.com/jillesvangurp) offered a partial solution to getting Vale CLI to work with IntelliJ-based IDEs, ensure you have Vale CLI installed first.
 
