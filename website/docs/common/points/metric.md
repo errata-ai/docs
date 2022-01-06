@@ -33,7 +33,7 @@ The table below summarizes all available variables:
 |:--------------------:|:----------------------------------------------------------------------------------:|
 | `blockquote`         | The number of `blockquote` tags.                                                   |
 | `characters`         | The number of characters.                                                          |
-| `complex_words`      | The number of polysyllabic words without common suffixes ("es", "ed", "ing", ...). |
+| `complex_words`      | The number of polysyllabic words without common suffixes (`es`, `ed`, `ing`, ...). |
 | `heading.h{n}`       | The number of headings at the specified level (for example, `heading.h1`).         |
 | `list`               | The number of `ol` and `ul` tags.                                                  |
 | `long_words`         | The number of words with more than 6 characters.                                   |

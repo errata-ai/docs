@@ -31,4 +31,4 @@ tasks.register("vale") {
 }
 ```
 
-In both cases, Jiiles used the Awesome Console plugin to turn the file names + line numbers from the output into clickable links. The only thing missing is for this to pick up the warnings and highlight them in the file.
+In both cases, Jilles used the Awesome Console plugin to turn the file names + line numbers from the output into clickable links. The only thing missing is for this to pick up the warnings and highlight them in the file.

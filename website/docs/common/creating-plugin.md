@@ -54,7 +54,7 @@ Whether using Vale CLI or Server, the JSON output of the checks configured to ru
 Each object contains the following information:
 
 -   `Action`: An action or change to the text that Vale server can take with a rule, containing a `Name` for the action and `Params` passed to the action.
--   `Check`: The ruleset and rule triggered.
+-   `Check`: The rule set and rule triggered.
 -   `Description`: A more detailed explanation for a rule. You can use it with [custom output format](https://docs.errata.ai/vale/cli#--output) or an editor integration's UI.
 -   `Line`: The line that contains the error.
 -   `Link`: Link to explanation of style guide rule

@@ -1,4 +1,3 @@
-
 When working with non-HTML markup, you'll probably find that there are certain
 non-standard sections of text you'd like to ignore.
 
@@ -10,8 +9,6 @@ shortcode-like `file` snippet:
 ```text
 {< file "hello.go" go >}
 package main
-
-import "fmt"
 
 func main() {
     fmt.Printf("hello, world\n")

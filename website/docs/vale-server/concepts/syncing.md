@@ -26,7 +26,7 @@ To use one of these services to sync your styles, all you need to do is
 provide the *absolute path* to the shared folder as the `StylesPath` value in one
 of your projects:
 
-![A example config file using a Dropbox folder.](/img/vale-server/mac/Dropbox.png)
+![A example configuration file using a Dropbox folder.](/img/vale-server/mac/Dropbox.png)
 
 ## Permissions
 

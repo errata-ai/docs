@@ -11,8 +11,6 @@ shortcode-like `file` snippet:
 {< file "hello.go" go >}
 package main
 
-import "fmt"
-
 func main() {
     fmt.Printf("hello, world\n")
 }
