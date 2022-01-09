@@ -5,10 +5,11 @@ const customFields = {
   collectiveUrl: 'https://opencollective.com/vale'
 }
 
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
-module.exports = {
+                     /** @type {import('@docusaurus/types').DocusaurusConfig} */
+                     module.exports = {
   title: 'docs.errata.ai',
-  tagline: 'NLP-powered tools for automated style guide enforcement, including Vale, Vale Server, and Vale Studio.',
+  tagline:
+      'NLP-powered tools for automated style guide enforcement, including Vale, Vale Server, and Vale Studio.',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -23,22 +24,16 @@ module.exports = {
       backgroundColor: '#ffa48e',
       isCloseable: false,
       content:
-        'Enjoying our open-source software? Please consider <a target="_blank" rel="noopener noreferrer" href="https://opencollective.com/vale">becoming a sponsor</a> to support continued development. ❤️'
+          'Enjoying our open-source software? Please consider <a target="_blank" rel="noopener noreferrer" href="https://opencollective.com/vale">becoming a sponsor</a> to support continued development. ❤️'
     },
-    algolia: {
-      apiKey: '12bdf8cd642ab554d424ff89eed88ce9',
-      indexName: 'errata_ai'
-    },
+    algolia:
+        {apiKey: '12bdf8cd642ab554d424ff89eed88ce9', indexName: 'errata_ai'},
     navbar: {
       hideOnScroll: false,
       title: 'docs.errata.ai',
-      logo: {
-        alt: 'errata.ai logo',
-        src: 'img/logo.svg'
-      },
+      logo: {alt: 'errata.ai logo', src: 'img/logo.svg'},
       items: [
-        { to: '/blog', label: 'Blog', position: 'left' },
-        {
+        {to: '/blog', label: 'Blog', position: 'left'}, {
           href: 'https://github.com/errata-ai',
           position: 'right',
           className: 'header-github-link',
@@ -64,72 +59,44 @@ module.exports = {
         {
           title: 'Docs',
           items: [
-            {
-              label: 'Vale CLI',
-              to: '/vale/install'
-            },
-            {
-              label: 'Vale Server',
-              to: '/vale-server/install/'
-            },
-            {
-              label: 'Styles Library',
-              to: 'https://github.com/errata-ai/styles'
-            }
+            {label: 'Vale CLI', to: '/vale/install'},
+            {label: 'Vale Server', to: '/vale-server/install/'},
+            {label: 'Styles Library', to: 'https://github.com/errata-ai/styles'}
           ]
         },
         {
           title: 'Connect',
           items: [
-            {
-              label: 'GitHub',
-              href: customFields.githubOrg
-            },
-            {
-              label: 'Slack',
-              href: customFields.slackUrl
-            },
-            {
-              label: 'Open Collective',
-              href: customFields.collectiveUrl
-            }
+            {label: 'GitHub', href: customFields.githubOrg},
+            {label: 'Slack', href: customFields.slackUrl},
+            {label: 'Open Collective', href: customFields.collectiveUrl}
           ]
         },
         {
           title: 'More',
           items: [
-            {
-              label: 'Privacy',
-              to: '/#privacy'
-            },
-            {
+            {label: 'Privacy', to: '/#privacy'}, {
               label: 'Benchmarks',
               to: 'https://github.com/errata-ai/vale#benchmarks'
             }
           ]
         }
       ],
-      copyright: `<a href="https://errata.ai/">Copyright © ${new Date().getFullYear()} errata.ai</a>`
+      copyright: `<a href="https://errata.ai/">Copyright © ${
+          new Date().getFullYear()} errata.ai</a>`
     }
   },
-  presets: [
-    [
-      '@docusaurus/preset-classic',
-      {
-        docs: {
-          routeBasePath: '/',
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: ({locale, versionDocsDirPath, docPath}) => {
-            return `https://github.com/errata-ai/docs/edit/main/website/${versionDocsDirPath}/${docPath}`;
-          },
-        },
-        blog: {
-          showReadingTime: true,
-        },
-        theme: {
-          customCss: require.resolve('./src/css/_global.css')
-        }
-      }
-    ]
-  ]
+  presets: [[
+    '@docusaurus/preset-classic', {
+      docs: {
+        routeBasePath: '/',
+        sidebarPath: require.resolve('./sidebars.js'),
+        editUrl: 'https://github.com/errata-ai/docs/edit/master/website/'
+      },
+      blog: {
+        showReadingTime: true,
+      },
+      theme: {customCss: require.resolve('./src/css/_global.css')}
+    }
+  ]]
 }

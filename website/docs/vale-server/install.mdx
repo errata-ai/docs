@@ -38,10 +38,9 @@ Client implementations are currently available for
 :::info Heads up!
 On macOS and Linux, you need to start Vale Server from the command line:
 
-```console
+```shell
 # macOS
 $ open -a "Vale Server"
-...
 # Linux
 $ ./Vale-Server-linux.AppImage
 ```
@@ -61,13 +60,13 @@ Vale Server supports **macOS 10.14+**, **Windows 10**, and [most **Linux** distr
   ]}>
 
   <TabItem value="win">
-    <p>Download <span className="code">ValeServer-1.x-windows.exe</span> (where <span className="code">1.x</span> will be the latest version) and follow the on-screen instructions:</p>
+    <p>Download <code>ValeServer-1.x-windows.exe</code> (where <code>1.x</code> will be the latest version) and follow the on-screen instructions:</p>
     <img
       alt="A screenshot of Vale Server's InstallBuilder installer."
       src={useBaseUrl('img/vale-server/win/installer-light.png')}
       className="sm-img"
     />
-    <p>After installation, Vale Server will automatically launch in the background (<span className="code">http://localhost:7777</span> by default) and you will see its icon in your taskbar:</p>
+    <p>After installation, Vale Server will automatically launch in the background (<code>http://localhost:7777</code> by default) and you will see its icon in your taskbar:</p>
     <img
       alt="A screenshot of Vale Server's context menu."
       src={useBaseUrl('img/vale-server/win/menu-light.png')}
@@ -77,14 +76,14 @@ Vale Server supports **macOS 10.14+**, **Windows 10**, and [most **Linux** distr
   </TabItem>
 
   <TabItem value="mac">
-    <p>Double-click <span className="code">ValeServer-1.x-osx.dmg</span> (where <span className="code">1.x</span> will be the latest version) to open the installer and then drag the application into your <span className="code">/Applications</span> folder:</p>
+    <p>Double-click <code>ValeServer-1.x-osx.dmg</code> (where <code>1.x</code> will be the latest version) to open the installer and then drag the application into your <span className="code">/Applications</span> folder:</p>
     <AdaptiveImg
       alt="A screenshot of Vale Server's DMG installer."
       src={useBaseUrl('img/vale-server/mac/installer')}
       format=".png"
       size="sm">
     </AdaptiveImg>
-    <p>After starting the application, Vale Server will automatically launch in the background (<span className="code">http://localhost:7777</span> by default) and you will see its icon in your menu bar:</p>
+    <p>After starting the application, Vale Server will automatically launch in the background (<code>http://localhost:7777</code> by default) and you will see its icon in your menu bar:</p>
     <AdaptiveImg
       alt="A screenshot of Vale Server's context menu."
       src={useBaseUrl('img/vale-server/mac/menu')}
@@ -94,8 +93,8 @@ Vale Server supports **macOS 10.14+**, **Windows 10**, and [most **Linux** distr
   </TabItem>
 
   <TabItem value="linux">
-    <p>Double-click <span className="code">ValeServer-1.x-x86_64.AppImage</span> (where <span className="code">1.x</span> will be the latest version).</p>
-    <p>After starting the application, Vale Server will automatically launch in the background (<span className="code">http://localhost:7777</span> by default) and you will see its icon in your menu bar:</p>
+    <p>Double-click <code>ValeServer-1.x-x86_64.AppImage</code> (where <code>1.x</code> will be the latest version).</p>
+    <p>After starting the application, Vale Server will automatically launch in the background (<code>http://localhost:7777</code> by default) and you will see its icon in your menu bar:</p>
     <img
       alt="A screenshot of Vale Server's context menu."
       src={useBaseUrl('img/vale-server/linux/menu.png')}
