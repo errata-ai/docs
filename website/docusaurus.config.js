@@ -91,7 +91,7 @@ const customFields = {
       docs: {
         routeBasePath: '/',
         sidebarPath: require.resolve('./sidebars.js'),
-        editUrl: 'https://github.com/errata-ai/docs/edit/master/website/'
+        editUrl: 'https://github.com/errata-ai/docs/edit/main/website/'
       },
       blog: {
         showReadingTime: true,
