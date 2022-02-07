@@ -40,6 +40,10 @@ module.exports = {
                     label: 'Blog',
                     position: 'left'
                 }, {
+                    href: 'https://share.streamlit.io/jdkato/rules/main/app/main.py',
+                    label: 'Rule Explorer',
+                    position: 'left'
+                }, {
                     href: 'https://github.com/errata-ai',
                     position: 'right',
                     className: 'header-github-link',
