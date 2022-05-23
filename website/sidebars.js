@@ -76,6 +76,11 @@ module.exports = {
                 },
                 {
                     type: 'link',
+                    label: 'Neovim',
+                    href: 'https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#vale'
+                },
+                {
+                    type: 'link',
                     label: 'VS Code',
                     href: 'https://github.com/errata-ai/vale-vscode'
                 }
