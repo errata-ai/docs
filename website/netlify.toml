@@ -7,3 +7,33 @@
   from = "/vale/install"
   to = "https://vale.sh/docs/vale-cli/installation/"
   force = true
+
+[[redirects]]
+  from = "/vale/cli"
+  to = "https://vale.sh/docs/vale-cli/structure/"
+  force = true
+
+[[redirects]]
+  from = "/vale/styles"
+  to = "https://vale.sh/docs/topics/styles/"
+  force = true
+
+[[redirects]]
+  from = "/vale/vocab"
+  to = "https://vale.sh/docs/topics/vocab/"
+  force = true
+
+[[redirects]]
+  from = "/vale/scoping"
+  to = "https://vale.sh/docs/topics/scoping/"
+  force = true
+
+[[redirects]]
+  from = "/vale/config"
+  to = "https://vale.sh/docs/topics/config/"
+  force = true
+
+[[redirects]]
+  from = "/vale-server/*"
+  to = "https://github.com/errata-ai/vale-server/issues/93"
+  force = true
