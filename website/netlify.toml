@@ -1,5 +1,9 @@
 [[redirects]]
   from = "https://nervous-almeida-4ca728.netlify.app/*"
   to = "https://docs.errata.ai/:splat"
-  status = 301
+  force = true
+
+[[redirects]]
+  from = "/vale/install"
+  to = "https://vale.sh/docs/vale-cli/installation/"
   force = true
