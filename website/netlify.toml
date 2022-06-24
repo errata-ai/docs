@@ -4,6 +4,11 @@
   force = true
 
 [[redirects]]
+  from = "/"
+  to = "https://vale.sh/docs/"
+  force = true
+
+[[redirects]]
   from = "/vale/install"
   to = "https://vale.sh/docs/vale-cli/installation/"
   force = true
